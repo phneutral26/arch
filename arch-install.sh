@@ -40,7 +40,7 @@ useradd -m -g users phil
 echo phil:password | chpasswd
 usermod -aG wheel,audio,video,power phil
 
-echo "phil ALL=(ALL) ALL" >> /etc/sudoers.d/ermanno
+echo "phil ALL=(ALL) ALL" >> /etc/sudoers.d/phil
 
 
 printf "\e[1;32mDone! Type exit, umount -a and reboot.\e[0m"
